@@ -13,17 +13,12 @@ import { blogData } from "../data";
 import Head from "next/head";
 
 const Blog = () => {
-
-  const loader = ()=>{
-    setLoadMore(true)
-  }
-
   return (
     <>
-    <Head>
-      <title>Blog</title>
-    </Head>
-      <Grid container spacing={2} mt={2} pl={30} pr={20}>
+      <Head>
+        <title>Blog</title>
+      </Head>
+      <Grid container spacing={2} mt={2} pl={30}>
         {blogData?.map((e, i) => {
           return (
             <Grid item mt={2} xs={12} md={5} sm={5} lg={6} key={i} mb={3}>
