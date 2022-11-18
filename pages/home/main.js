@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
       <Head>
-        <title>Home Page</title>
+        <title>Home Page</title>sd
       </Head>
       this is the main home page  ee e  ee e e
 
