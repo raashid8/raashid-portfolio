@@ -8,7 +8,7 @@ const Main = () => {
       <Head>
         <title>Home Page</title>
       </Head>
-      this is the main home page
+      this is the main home page  ee e  ee e e
 
       <button onClick={()=>{router.push("/home/blog");}}>BLOGS</button>
     </>
