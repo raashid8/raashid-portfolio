@@ -16,7 +16,7 @@ const Blog = () => {
   return (
     <>
       <Head>
-        <title>Blog</title>
+        <title>Bloger</title>
       </Head>
       <Grid container spacing={2} mt={2} pl={30}>
         {blogData?.map((e, i) => {
