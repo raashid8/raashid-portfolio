@@ -30,3 +30,18 @@
 // };
 
 // export default Contact;
+
+import Head from 'next/head'
+import React from 'react'
+
+const Contact = () => {
+  return (
+    <>
+      <Head>
+        <title>Contact me</title>
+      </Head>
+    Contact</>
+  )
+}
+
+export default Contact
